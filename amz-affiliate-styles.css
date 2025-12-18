@@ -1,0 +1,76 @@
+<style>
+.amz-callout {
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 12px;
+  padding: 1.25rem 1.4rem;
+  margin: 2rem 0;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+  max-width: 680px;
+}
+
+.amz-badge {
+  display: inline-block;
+  background: #f1f7f4;
+  color: #2f6f4e;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  margin-bottom: 0.6rem;
+}
+
+.amz-title {
+  margin: 0.2rem 0;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.amz-author {
+  margin: 0 0 0.7rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.amz-summary {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.7rem;
+}
+
+.amz-features {
+  margin: 0 0 0.9rem 1.1rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.amz-features li {
+  margin-bottom: 0.3rem;
+}
+
+.amz-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.amz-button {
+  background: #ff9900;
+  color: #111;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.amz-button:hover {
+  background: #f3a847;
+}
+
+.amz-note {
+  font-size: 0.75rem;
+  color: #777;
+}
+</style>
