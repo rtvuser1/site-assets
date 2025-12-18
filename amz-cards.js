@@ -1,6 +1,4 @@
-
-console.log("amz-cards loaded");
-
+// An Amazon Affiliate Product Card
 
 class AmzCard extends HTMLElement {
   connectedCallback() {
