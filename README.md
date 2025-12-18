@@ -5,9 +5,12 @@ The assets are published to the web using github pages.
 
 To access an asset such as the amz-affiliate style sheet, add the following line to the html page:
 ```
+<link rel="stylesheet" href="https://rtvuser1.github.io/site-assets/amz-affiliate-styles.css">
 ```
 
-Here is one of the best books I've read with great recipes and helathy meal ideas: <a href="https://amzn.to/48LqUW0" target="_blank" rel="noopener">
+## Example of custom HTML used in GoDaddy Website
+
+Here is one of the best books I've read with great recipes and healthy meal ideas: <a href="https://amzn.to/48LqUW0" target="_blank" rel="noopener">
   The Well Plated Cookbook: Fast, Healthy Recipes You'll Want to Eat
 </a>
 <P>
@@ -22,7 +25,7 @@ Another version of exactly the same thing, but with full link (not sure what is 
 
 <!-- Amazon Product Callout (No Image Version) -->
 
-Here' a better example that uses a "product card" with basic styling effects:
+Here's a better example that uses a "product card" with basic styling effects:
 
 <link rel="stylesheet" href="https://rtvuser1.github.io/site-assets/amz-affiliate-styles.css">
 
