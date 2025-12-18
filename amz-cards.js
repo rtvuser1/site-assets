@@ -1,4 +1,4 @@
-<script>
+
 class AmzCard extends HTMLElement {
   connectedCallback() {
     const badge = this.getAttribute("badge") || "";
@@ -32,4 +32,4 @@ function escapeHtml(str){ return String(str).replace(/[&<>"']/g, m => ({'&':'&am
 function escapeAttr(str){ return String(str).replace(/"/g, "&quot;"); }
 
 customElements.define("amz-card", AmzCard);
-</script>
+
