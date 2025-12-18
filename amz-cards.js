@@ -1,4 +1,7 @@
 
+console.log("amz-cards loaded");
+
+
 class AmzCard extends HTMLElement {
   connectedCallback() {
     const badge = this.getAttribute("badge") || "";
