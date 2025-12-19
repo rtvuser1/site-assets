@@ -91,5 +91,36 @@ Here's a better example that uses a "product card" with basic styling effects:
   note="Price & availability updated on Amazon"
 >
 </amz-card>
+```
+Another example that has two cards:
+```
+<link rel="stylesheet" href="https://rtvuser1.github.io/site-assets/amz-affiliate-styles.css">
+<script defer src="https://rtvuser1.github.io/site-assets/amz-cards.js"></script>
+
+<div class="amz-grid">
+  <amz-card
+    badge="Recommended Cookbook"
+    title="The Well Plated Cookbook: Healthy Recipes You'll Actually Want to Eat"
+    author="Erin Clarke"
+    summary="A practical, feel-good cookbook focused on everyday meals that are lighter, comforting, and realistic for busy home cooks."
+    features="Approachable, healthy comfort food|No obscure or expensive ingredients|Great for weeknight dinners & meal prep"
+    href="https://www.amazon.com/Well-Plated-Cookbook-Healthy-Recipes/dp/0525541160?tag=tt08c0-20"
+    button="Check price & reviews on Amazon"
+    note="Price & availability updated on Amazon"
+  ></amz-card>
+
+  <amz-card
+    badge="Weeknight Favorite"
+    title="Salt, Fat, Acid, Heat"
+    author="Samin Nosrat"
+    summary="A fundamentals-first guide that improves everything you cook."
+    features="Teaches technique|Great reference|Beautiful writing"
+    href="https://www.amazon.com/..."
+    button="Check price & reviews on Amazon"
+    note="Price & availability updated on Amazon"
+  ></amz-card>
+
+  <!-- add more cards... -->
+</div>
 
 ```
