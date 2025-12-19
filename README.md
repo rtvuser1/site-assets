@@ -7,6 +7,10 @@ To access an asset such as the amz-affiliate style sheet, add the following line
 ```
 <link rel="stylesheet" href="https://rtvuser1.github.io/site-assets/amz-affiliate-styles.css">
 ```
+To access and use a pre-configured Amazon "product card" (with an image), add this line:
+```
+<script defer src="https://rtvuser1.github.io/site-assets/amz-cards.js"></script>
+```
 
 ## Example of custom HTML used in GoDaddy Website
 
@@ -64,9 +68,10 @@ Here's a better example that uses a "product card" with basic styling effects:
 
 ## Improved version that uses the AMZ Card
 
-<link rel="stylesheet" href="https://rtvuser1.github.io/site-assets/amz-affiliate-styles.css">
-<script defer src="https://rtvuser1.github.io/site-assets/amz-cards.js"></script>
+NOTE: the AMZ Card will not actually render here in github ... the code is placed here just to see how to make an instance of a card in an actual website HTML page.
 
+```
+<link rel="stylesheet" href="https://rtvuser1.github.io/site-assets/amz-affiliate-styles.css">
 <script defer src="https://rtvuser1.github.io/site-assets/amz-cards.js"></script>
 
 <!-- Amazon Product Callout (No Image Version) -->
@@ -87,4 +92,4 @@ Here's a better example that uses a "product card" with basic styling effects:
 >
 </amz-card>
 
-
+```
