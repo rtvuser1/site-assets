@@ -6,7 +6,10 @@
   margin: 2rem 0;
   background: #fff;
   box-shadow: 0 8px 20px rgba(0,0,0,0.04);
-  max-width: 680px;
+  /* max-width: 680px; */
+  /* Optional: cap the max width so cards don't get comically wide */
+  max-width: 520px;
+  width: 100%;
 }
 
 .amz-badge {
@@ -73,4 +76,15 @@
   font-size: 0.75rem;
   color: #777;
 }
+
+/* Layout container for multiple cards */
+.amz-grid{
+  display: grid;
+  gap: 16px;
+
+  /* Cards will auto-wrap. Each column is at least 280px, grows up to 1fr */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
+}
+
 </style>
