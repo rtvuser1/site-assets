@@ -84,7 +84,8 @@
 
   /* Cards will auto-wrap. Each column is at least 280px, grows up to 1fr */
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  align-items: start;
+  /*align-items: start;*/
+  align-items: stretch;
 }
 
 /* Additions for nice styling of the tiles */
@@ -93,7 +94,7 @@
   background-color: #f5f5f5;          /* light grey */
   border-radius: 12px;                /* soft corners */
 
-background: #f7f7f7;
+  /* background: #f7f7f7; */
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 
   border: 1px solid #e6e6e6; 
@@ -102,6 +103,8 @@ background: #f7f7f7;
     0 2px 6px rgba(0,0,0,0.08),
     0 8px 24px rgba(0,0,0,0.06);
   transition: transform .15s ease, box-shadow .15s ease;
+
+  height: 100%;
 }
 
 /* Optional: subtle lift on hover (desktop) */
@@ -114,11 +117,4 @@ background: #f7f7f7;
   }
 }
 
-.amz-grid{
-  align-items: stretch;
-}
-
-.amz-callout{
-  height: 100%;
-}
 </style>
