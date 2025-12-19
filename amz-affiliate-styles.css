@@ -10,6 +10,7 @@
   /* Optional: cap the max width so cards don't get comically wide */
   max-width: 520px;
   width: 100%;
+  height: 100%;
 }
 
 .amz-badge {
@@ -103,8 +104,6 @@
     0 2px 6px rgba(0,0,0,0.08),
     0 8px 24px rgba(0,0,0,0.06);
   transition: transform .15s ease, box-shadow .15s ease;
-
-  height: 100%;
 }
 
 /* Optional: subtle lift on hover (desktop) */
