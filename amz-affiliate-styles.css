@@ -88,3 +88,39 @@
 }
 
 </style>
+/* Additions for nice styling of the tiles */
+
+<style>
+.amz-callout{
+  background-color: #f5f5f5;          /* light grey */
+  border-radius: 12px;                /* soft corners */
+
+background: #f7f7f7;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+
+  border: 1px solid #e6e6e6; 
+  padding: 16px 18px;
+  box-shadow:
+    0 2px 6px rgba(0,0,0,0.08),
+    0 8px 24px rgba(0,0,0,0.06);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+/* Optional: subtle lift on hover (desktop) */
+@media (hover:hover){
+  .amz-callout:hover{
+    transform: translateY(-2px);
+    box-shadow:
+      0 6px 16px rgba(0,0,0,0.12),
+      0 12px 32px rgba(0,0,0,0.10);
+  }
+}
+
+.amz-grid{
+  align-items: stretch;
+}
+
+.amz-callout{
+  height: 100%;
+}
+</style>
