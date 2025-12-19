@@ -15,8 +15,10 @@
 
 .amz-badge {
   display: inline-block;
-  background: #f1f7f4;
-  color: #2f6f4e;
+  /*background: #f1f7f4;
+  color: #2f6f4e;*/
+  background-color: #2563eb; /* rich blue */
+  color: #ffffff;
   font-size: 0.75rem;
   font-weight: 600;
   padding: 0.25rem 0.6rem;
